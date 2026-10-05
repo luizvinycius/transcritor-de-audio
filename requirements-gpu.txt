@@ -1,0 +1,4 @@
+-r requirements.txt
+# cuBLAS do CUDA 12, exigido pelo ctranslate2 para rodar na GPU NVIDIA
+# (o cuDNN 9 já vem embutido no ctranslate2)
+nvidia-cublas-cu12
